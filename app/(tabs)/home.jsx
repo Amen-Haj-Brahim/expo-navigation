@@ -1,18 +1,21 @@
-import { View, Text, StyleSheet } from 'react-native';
 import { Link } from 'expo-router';
+import { View, Text, StyleSheet } from 'react-native';
 
-export default function DetailsScreen() {
+export default function hHome() {
     return (
         <View style={styles.container}>
-            <Link href="/">back to index</Link>
-            <Text>{username}</Text>
+            <Text>home tab</Text>
         </View>
     );
 }
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
     },
+    link: {
+        color: 'blue'
+    }
 });

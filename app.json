@@ -1,6 +1,5 @@
 {
   "expo": {
-    "scheme": "navigation",
     "name": "navigation",
     "slug": "navigation",
     "version": "1.0.0",
@@ -12,6 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "scheme": "navigation",
     "ios": {
       "supportsTablet": true
     },
